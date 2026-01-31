@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-# 🎨 Color Randomizer
+# Color Randomizer
 
 Um site interativo que gera cores aleatórias e exibe automaticamente seus valores em **RGB** e **HEX**, além de aplicar a cor complementar para manter o contraste visual dos elementos na tela.
 
