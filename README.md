@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎨 Color Randomizer
 
 Um site interativo que gera cores aleatórias e exibe automaticamente seus valores em **RGB** e **HEX**, além de aplicar a cor complementar para manter o contraste visual dos elementos na tela.
@@ -91,3 +92,7 @@ Interessado em desenvolvimento, automações e criação de ferramentas úteis.
 ---
 
 Se esse projeto te ajudou ou você curtiu a ideia, deixe uma ⭐ no repositório!
+=======
+# ColorRandomizer
+A simple 2 random color generator
+>>>>>>> 99cabcb71584dc9858ae1a304c7d705401e793a7
