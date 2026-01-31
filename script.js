@@ -16,9 +16,9 @@ function rand(){
     var g = rgb[1]
     var b = rgb[2]
     
-    var rInverted = (r - 255) * -1
-    var gInverted = (g - 255) * -1
-    var bInverted = (b - 255) * -1
+    var rInverted = 255 - r
+    var gInverted = 255 - g
+    var bInverted = 255 - b
 
     componentToHex = (c) => {
         const hex = Number(c).toString(16).padStart(2, '0');
