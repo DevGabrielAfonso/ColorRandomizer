@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 24pt;
+    background-color: rgb(255, 255, 255);
+}
+
+input#text{
+    color: white;
+    text-shadow:-1px -1px 0 black,
+                1px -1px 0 black,
+                -1px 1px 0 black,
+                1px 1px 0 black;
+}
+
+div#result{
+    transform: translateY(5vh);
+    margin: auto;
+    height: auto;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.466);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+button#rand{
+    padding: 10px;
+    font-size: 16pt;
+    background-color: rgb(255,255,255);
+    border-style: none;
+    border-radius: 10px;
+    border-spacing: 100px;
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.288);
+}
