@@ -2,7 +2,8 @@
     const tittle = document.getElementById("text");
     const color1 = document.getElementById("color1");
     const color2 = document.getElementById("color2");
-
+    const footer = document.getElementById("footer");
+    const footerGH = document.getElementById("github")
 function rand(){
     const background = document.body;
     var rgb = []
@@ -35,7 +36,8 @@ function rand(){
     color2.style.color = `rgb(${rInverted},${gInverted},${bInverted})`
     color1.innerHTML = `RGB: ${r}, ${g}, ${b} <br> HEX: ${rgbToHex(r, g, b)}`;
     color2.innerHTML = `RGB: ${rInverted}, ${gInverted}, ${bInverted} <br> HEX: ${rgbToHex(rInverted, gInverted, bInverted)}`;
-
+    footer.style.color = `rgb(${rInverted},${gInverted},${bInverted})`
+    footerGH.style.color = `rgb(${rInverted},${gInverted},${bInverted})`
     if((rInverted+gInverted+bInverted)<300){
         button.style.color = "rgb(255,255,255)"
     } else {

@@ -34,3 +34,12 @@ button#rand{
     border-spacing: 100px;
     box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.288);
 }
+
+footer#footer{
+    left: 0;
+    transform: translateY(100px);
+}
+
+a:visited{
+    color:black;
+}
